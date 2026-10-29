@@ -1,0 +1,28 @@
+{
+  "name": "rose-connect-api",
+  "version": "1.0.0",
+  "description": "API REST de ROSE Connect : contenus éducatifs et assistant (RAG + Claude)",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch src/server.js",
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "test": "node --test",
+    "sync-content": "node scripts/sync-content.js",
+    "build:web": "cd ../rose_connect && flutter build web --dart-define=API_URL=/api",
+    "eval": "node --env-file-if-exists=.env scripts/eval-assistant.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@google/genai": "^2.29.1",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "zod": "^4.6.7"
+  }
+}

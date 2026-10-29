@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "cancer-du-sein",
+      "title": "Qu’est-ce que le cancer du sein ?",
+      "category": "comprendre",
+      "summary": "Une maladie dans laquelle des cellules du sein se multiplient de façon anormale. Repéré tôt, il se soigne mieux.",
+      "keyPoints": [
+        { "icon": "cells", "text": "Des cellules du sein se multiplient anormalement" },
+        { "icon": "search", "text": "Repéré tôt, il se soigne mieux" },
+        { "icon": "women", "text": "Surtout les femmes, rarement les hommes" },
+        { "icon": "check", "text": "La plupart des boules ne sont pas des cancers" }
+      ],
+      "published": true,
+      "reviewed": false,
+      "blocks": [
+        { "type": "paragraph", "text": "Le cancer du sein est une maladie dans laquelle des cellules anormales du sein se multiplient de façon incontrôlée et forment une tumeur. Sans prise en charge, la maladie peut s’étendre aux ganglions situés sous le bras, puis à d’autres organes." },
+        { "type": "paragraph", "text": "C’est le cancer le plus fréquent chez la femme dans le monde. Il peut aussi toucher les hommes, mais c’est beaucoup plus rare." },
+        { "type": "heading", "text": "Pourquoi en parler ?" },
+        { "type": "paragraph", "text": "Plus un cancer du sein est repéré tôt, plus les traitements ont de chances de réussir. Bien connaître ses seins et consulter rapidement en cas de changement fait une vraie différence." },
+        { "type": "callout", "text": "Toutes les boules du sein ne sont pas des cancers. La plupart sont bénignes, mais seul un professionnel de santé peut le confirmer." }
+      ],
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "signes-sein",
+      "title": "Les signes à connaître",
+      "category": "signes",
+      "summary": "Les changements du sein qui méritent d’être montrés à un professionnel de santé, et ce qu’il faut faire.",
+      "keyPoints": [
+        { "icon": "lump", "text": "Boule ou épaississement, sein ou aisselle" },
+        { "icon": "shape", "text": "Changement de taille ou de forme" },
+        { "icon": "skin", "text": "Peau qui se creuse ou rougit" },
+        { "icon": "nipple", "text": "Mamelon qui change ou rentre" },
+        { "icon": "drop", "text": "Écoulement inhabituel du mamelon" },
+        { "icon": "doctor", "text": "Souvent sans douleur : consultez" }
+      ],
+      "published": true,
+      "reviewed": false,
+      "blocks": [
+        { "type": "paragraph", "text": "Certains changements du sein méritent d’être montrés à un professionnel de santé. Ils sont souvent indolores : l’absence de douleur ne veut pas dire que tout va bien." },
+        { "type": "bullets", "items": [
+          "Une boule ou un épaississement dans le sein ou sous l’aisselle.",
+          "Un changement de taille, de forme ou d’aspect du sein.",
+          "Une peau qui se creuse, rougit, prend un aspect de peau d’orange ou change d’une autre façon.",
+          "Un changement du mamelon ou de la peau qui l’entoure (aréole), par exemple un mamelon qui rentre vers l’intérieur.",
+          "Un écoulement anormal ou sanglant du mamelon."
+        ] },
+        { "type": "callout", "text": "Ces signes peuvent avoir plusieurs causes et ne signifient pas nécessairement un cancer." },
+        { "type": "heading", "text": "Que faire si vous remarquez un changement ?" },
+        { "type": "paragraph", "text": "N’attendez pas qu’il disparaisse. Prenez rendez-vous avec un professionnel de santé (médecin, sage-femme, infirmière ou infirmier). Il pourra examiner vos seins et, si besoin, demander des examens complémentaires." },
+        { "type": "heading", "text": "Bien connaître ses seins" },
+        { "type": "paragraph", "text": "Observer et palper régulièrement vos seins vous permet de savoir ce qui est habituel pour vous et de repérer plus facilement un changement. Un professionnel de santé peut vous montrer comment faire." }
+      ],
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "facteurs-risque",
+      "title": "Les facteurs de risque",
+      "category": "risques",
+      "summary": "Ce qui peut augmenter la probabilité d’un cancer du sein, et ce sur quoi il est possible d’agir.",
+      "keyPoints": [
+        { "icon": "age", "text": "L’âge" },
+        { "icon": "family", "text": "Des cas dans la famille" },
+        { "icon": "alcohol", "text": "L’alcool et le tabac" },
+        { "icon": "weight", "text": "Le surpoids" },
+        { "icon": "activity", "text": "Bouger régulièrement protège" },
+        { "icon": "info", "text": "Un risque n’est pas une certitude" }
+      ],
+      "published": true,
+      "reviewed": false,
+      "blocks": [
+        { "type": "paragraph", "text": "Un facteur de risque augmente la probabilité de développer une maladie, sans la rendre certaine. Avoir un ou plusieurs facteurs de risque ne veut pas dire que vous aurez un cancer du sein." },
+        { "type": "callout", "text": "Environ la moitié des cancers du sein surviennent chez des femmes qui n’ont aucun facteur de risque particulier, en dehors du fait d’être une femme et de leur âge." },
+        { "type": "heading", "text": "Des facteurs qu’on ne peut pas modifier" },
+        { "type": "bullets", "items": [
+          "L’âge : le risque augmente avec les années.",
+          "Des antécédents familiaux de cancer du sein, surtout chez une parente proche (mère, sœur, fille).",
+          "Certaines mutations génétiques héréditaires, comme celles des gènes BRCA1 et BRCA2.",
+          "Une exposition passée de la poitrine à des rayonnements, par exemple une radiothérapie.",
+          "Certains éléments de l’histoire reproductive, comme l’âge des premières règles ou l’âge à la première grossesse."
+        ] },
+        { "type": "heading", "text": "Des facteurs sur lesquels on peut agir" },
+        { "type": "bullets", "items": [
+          "Le surpoids et l’obésité.",
+          "La consommation d’alcool.",
+          "Le tabac.",
+          "L’usage prolongé de traitements hormonaux de la ménopause."
+        ] },
+        { "type": "paragraph", "text": "Allaiter, pratiquer une activité physique régulière, garder un poids adapté et éviter l’alcool et le tabac contribuent à réduire le risque." }
+      ],
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "pourquoi-consulter",
+      "title": "Pourquoi consulter un professionnel de santé ?",
+      "category": "consulter",
+      "summary": "Quand prendre rendez-vous et comment se passe une consultation pour un changement du sein.",
+      "keyPoints": [
+        { "icon": "calendar", "text": "Dès qu’un changement apparaît" },
+        { "icon": "nopain", "text": "Même sans douleur" },
+        { "icon": "doctor", "text": "Examen des seins et des aisselles" },
+        { "icon": "heart", "text": "Consulter ne veut pas dire être malade" }
+      ],
+      "published": true,
+      "reviewed": false,
+      "blocks": [
+        { "type": "paragraph", "text": "Seul un professionnel de santé peut examiner vos seins, interpréter un changement et vous orienter vers les examens adaptés." },
+        { "type": "heading", "text": "Quand consulter ?" },
+        { "type": "bullets", "items": [
+          "Dès que vous remarquez un changement inhabituel du sein ou sous l’aisselle, même sans douleur.",
+          "Si un changement persiste ou s’aggrave.",
+          "Si vous avez des antécédents familiaux et souhaitez faire le point sur votre suivi.",
+          "Si vous avez une inquiétude, même si vous n’êtes pas sûre de ce que vous avez remarqué."
+        ] },
+        { "type": "heading", "text": "Comment se passe la consultation ?" },
+        { "type": "paragraph", "text": "Le professionnel vous pose des questions sur ce que vous avez remarqué et sur vos antécédents, puis examine les deux seins et les aisselles. Selon ce qu’il constate, il peut proposer une échographie, une mammographie ou d’autres examens." },
+        { "type": "paragraph", "text": "Vous pouvez venir accompagnée et noter vos questions à l’avance." },
+        { "type": "callout", "text": "Consulter ne veut pas dire que vous êtes malade. C’est le meilleur moyen d’être rassurée, ou prise en charge rapidement si nécessaire." }
+      ],
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "idees-recues",
+      "title": "Les idées reçues à éviter",
+      "category": "idees-recues",
+      "summary": "Sept affirmations courantes sur le cancer du sein, et ce qu’il en est vraiment.",
+      "published": true,
+      "reviewed": false,
+      "blocks": [
+        { "type": "myth", "myth": "Une boule dans le sein, c’est forcément un cancer.", "fact": "La plupart des boules du sein sont bénignes, par exemple des kystes ou des fibroadénomes. Seul un professionnel de santé peut le confirmer : il faut consulter." },
+        { "type": "myth", "myth": "Une boule qui ne fait pas mal n’est pas grave.", "fact": "Les signes du cancer du sein sont souvent indolores. L’absence de douleur ne permet pas de conclure." },
+        { "type": "myth", "myth": "Seules les femmes âgées sont concernées.", "fact": "Le risque augmente avec l’âge, mais un cancer du sein peut survenir plus tôt. Tout changement mérite attention, quel que soit l’âge." },
+        { "type": "myth", "myth": "S’il n’y a aucun cas dans ma famille, je ne risque rien.", "fact": "Environ la moitié des cancers du sein surviennent chez des femmes sans facteur de risque particulier." },
+        { "type": "myth", "myth": "Les hommes ne peuvent pas avoir de cancer du sein.", "fact": "C’est rare, mais possible. Un homme qui remarque une boule ou un changement doit aussi consulter." },
+        { "type": "myth", "myth": "Le cancer du sein est contagieux.", "fact": "Le cancer du sein ne se transmet pas d’une personne à une autre." },
+        { "type": "myth", "myth": "Un cancer du sein, c’est une condamnation.", "fact": "Repéré tôt et pris en charge, un cancer du sein se soigne dans de nombreux cas. D’où l’importance de consulter sans attendre." }
+      ],
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    }
+  ]
+}

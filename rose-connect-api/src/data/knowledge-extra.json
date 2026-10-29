@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "reviewed": false,
+  "note": "Fiches réservées à l'assistant, en plus de education.json. À faire relire par l'équipe avant la démonstration.",
+  "items": [
+    {
+      "id": "examens-sein",
+      "title": "Les examens du sein",
+      "blocks": [
+        { "type": "paragraph", "text": "Lors d’une consultation pour un changement du sein, le professionnel de santé pose des questions sur ce que vous avez remarqué et sur vos antécédents, puis il observe et palpe les deux seins et les aisselles." },
+        { "type": "heading", "text": "La mammographie" },
+        { "type": "paragraph", "text": "La mammographie est une radiographie des seins. Elle permet de repérer des anomalies, parfois avant qu’elles ne soient palpables." },
+        { "type": "paragraph", "text": "Comment se passe une mammographie : l’examen a lieu dans un service de radiologie et dure quelques minutes. Chaque sein est placé à son tour entre deux plaques qui le compriment pendant quelques secondes, le temps de prendre les clichés. Cette pression peut être inconfortable, mais elle est brève. Les images sont ensuite interprétées par un médecin radiologue." },
+        { "type": "heading", "text": "L’échographie" },
+        { "type": "paragraph", "text": "L’échographie utilise des ultrasons. Elle est souvent proposée en complément de la mammographie, ou chez les femmes jeunes dont les seins sont plus denses." },
+        { "type": "heading", "text": "La biopsie" },
+        { "type": "paragraph", "text": "Si une anomalie doit être précisée, un petit prélèvement de tissu (biopsie) peut être réalisé et analysé au laboratoire. C’est cet examen qui permet de confirmer ou d’écarter un cancer." },
+        { "type": "paragraph", "text": "Le choix des examens dépend de chaque situation et revient au professionnel de santé, qui explique ensuite les résultats." }
+      ],
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "traitements",
+      "title": "Les traitements du cancer du sein",
+      "blocks": [
+        { "type": "paragraph", "text": "Le traitement d’un cancer du sein est décidé par une équipe médicale, en fonction du type de cancer, de son étendue et de la situation de chaque personne. ROSE Connect ne recommande aucun traitement." },
+        { "type": "paragraph", "text": "Selon les cas, les traitements peuvent associer la chirurgie, la radiothérapie et des médicaments (par exemple chimiothérapie ou hormonothérapie)." },
+        { "type": "paragraph", "text": "Un cancer du sein repéré tôt et traité de façon adaptée se soigne dans de nombreux cas. Il est important de suivre le traitement prescrit jusqu’au bout et de ne pas le remplacer par des remèdes non validés." }
+      ],
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "depistage",
+      "title": "Le dépistage",
+      "blocks": [
+        { "type": "paragraph", "text": "Le dépistage consiste à rechercher un cancer du sein chez des femmes qui n’ont pas de signe particulier, afin de le repérer le plus tôt possible." },
+        { "type": "paragraph", "text": "Selon votre âge, vos antécédents et les services disponibles près de chez vous, un professionnel de santé peut vous proposer un examen clinique des seins ou une mammographie." },
+        { "type": "paragraph", "text": "Des campagnes de sensibilisation et de dépistage sont souvent organisées pendant le mois d’Octobre Rose. Renseignez-vous auprès d’un centre de santé." },
+        { "type": "paragraph", "text": "Le dépistage ne remplace pas la consultation : si vous remarquez un changement, consultez sans attendre la prochaine campagne." }
+      ],
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "connaitre-ses-seins",
+      "title": "Bien connaître ses seins",
+      "blocks": [
+        { "type": "paragraph", "text": "Observer et palper régulièrement ses seins aide à savoir ce qui est habituel pour soi et à repérer plus facilement un changement." },
+        { "type": "bullets", "items": [
+          "Regardez vos seins dans un miroir, bras le long du corps puis levés, pour repérer un changement de forme ou de peau.",
+          "Palpez doucement chaque sein et l’aisselle avec le plat des doigts.",
+          "Choisissez un moment régulier, par exemple quelques jours après les règles, car les seins changent au cours du cycle."
+        ] },
+        { "type": "paragraph", "text": "Un professionnel de santé peut vous montrer comment faire. Cette habitude ne remplace pas un examen médical : si vous remarquez un changement, consultez." }
+      ],
+      "sources": [
+        { "label": "Fiche ROSE Connect, en cours de relecture" }
+      ]
+    },
+    {
+      "id": "accompagner-proche",
+      "title": "Accompagner une proche",
+      "blocks": [
+        { "type": "paragraph", "text": "Quand une proche est touchée par un cancer du sein, votre présence compte." },
+        { "type": "bullets", "items": [
+          "Écoutez-la sans juger et laissez-la parler à son rythme.",
+          "Proposez une aide concrète : l’accompagner à un rendez-vous, préparer un repas, garder les enfants.",
+          "Respectez ses choix et les décisions prises avec son équipe médicale.",
+          "Évitez de lui conseiller des traitements non validés.",
+          "Prenez aussi soin de vous : accompagner quelqu’un peut être éprouvant."
+        ] },
+        { "type": "paragraph", "text": "Le cancer du sein n’est pas contagieux : vous pouvez la toucher, la serrer dans vos bras et partager ses repas sans aucun risque." }
+      ],
+      "sources": [
+        { "label": "Fiche ROSE Connect, en cours de relecture" }
+      ]
+    }
+  ]
+}

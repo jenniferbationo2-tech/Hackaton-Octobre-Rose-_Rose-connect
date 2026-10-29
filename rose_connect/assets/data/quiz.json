@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "reviewed": false,
+  "questions": [
+    {
+      "id": "boule-cancer",
+      "question": "Une nouvelle boule dans le sein signifie-t-elle toujours qu’il s’agit d’un cancer ?",
+      "options": [
+        { "id": "a", "label": "Oui, toujours." },
+        { "id": "b", "label": "Non, plusieurs causes sont possibles." },
+        { "id": "c", "label": "Seulement si elle fait mal." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La plupart des boules du sein sont bénignes, par exemple des kystes. Mais seul un professionnel de santé peut le confirmer : toute nouvelle boule doit être montrée.",
+      "educationId": "idees-recues"
+    },
+    {
+      "id": "douleur",
+      "question": "Les signes d’un cancer du sein sont-ils toujours douloureux ?",
+      "options": [
+        { "id": "a", "label": "Oui, une boule cancéreuse fait toujours mal." },
+        { "id": "b", "label": "Non, ils sont souvent indolores." },
+        { "id": "c", "label": "Seulement pendant les règles." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les signes du cancer du sein sont souvent sans douleur. Ne pas avoir mal ne permet pas de conclure que tout va bien.",
+      "educationId": "signes-sein"
+    },
+    {
+      "id": "peau",
+      "question": "Lequel de ces changements mérite d’être montré à un professionnel de santé ?",
+      "options": [
+        { "id": "a", "label": "Une peau du sein qui se creuse ou prend un aspect de peau d’orange." },
+        { "id": "b", "label": "Des seins de tailles un peu différentes depuis toujours." },
+        { "id": "c", "label": "Aucun, il vaut mieux attendre." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Une modification récente de la peau du sein fait partie des signes à faire examiner. Une légère différence de taille présente depuis toujours est en revanche fréquente.",
+      "educationId": "signes-sein"
+    },
+    {
+      "id": "mamelon",
+      "question": "Un écoulement sanglant du mamelon, en dehors de l’allaitement, doit-il amener à consulter ?",
+      "options": [
+        { "id": "a", "label": "Oui, il faut le montrer à un professionnel de santé." },
+        { "id": "b", "label": "Non, c’est toujours normal." },
+        { "id": "c", "label": "Seulement s’il dure plus d’un an." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Un écoulement anormal ou sanglant du mamelon fait partie des signes qui justifient une consultation, même s’il peut avoir d’autres causes qu’un cancer.",
+      "educationId": "signes-sein"
+    },
+    {
+      "id": "hommes",
+      "question": "Les hommes peuvent-ils avoir un cancer du sein ?",
+      "options": [
+        { "id": "a", "label": "Non, jamais." },
+        { "id": "b", "label": "Oui, mais c’est rare." },
+        { "id": "c", "label": "Oui, aussi souvent que les femmes." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le cancer du sein touche aussi les hommes, mais beaucoup plus rarement que les femmes. Un homme qui remarque une boule doit consulter.",
+      "educationId": "cancer-du-sein"
+    },
+    {
+      "id": "famille",
+      "question": "Une femme sans aucun cas de cancer du sein dans sa famille peut-elle en avoir un ?",
+      "options": [
+        { "id": "a", "label": "Non, c’est uniquement héréditaire." },
+        { "id": "b", "label": "Oui, beaucoup de cancers du sein surviennent sans antécédent familial." },
+        { "id": "c", "label": "Seulement après 70 ans." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Environ la moitié des cancers du sein surviennent chez des femmes sans facteur de risque particulier, en dehors du fait d’être une femme et de leur âge.",
+      "educationId": "facteurs-risque"
+    },
+    {
+      "id": "alcool",
+      "question": "Lequel de ces éléments est un facteur de risque reconnu du cancer du sein ?",
+      "options": [
+        { "id": "a", "label": "Porter un soutien-gorge." },
+        { "id": "b", "label": "La consommation d’alcool." },
+        { "id": "c", "label": "Recevoir un coup sur le sein." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La consommation d’alcool augmente le risque de cancer du sein. Le port d’un soutien-gorge n’est pas un facteur de risque reconnu.",
+      "educationId": "facteurs-risque"
+    },
+    {
+      "id": "contagion",
+      "question": "Le cancer du sein peut-il se transmettre d’une personne à une autre ?",
+      "options": [
+        { "id": "a", "label": "Oui, par simple contact." },
+        { "id": "b", "label": "Non, il n’est pas contagieux." },
+        { "id": "c", "label": "Oui, en partageant un repas." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le cancer du sein n’est pas contagieux. On peut soutenir et toucher une personne malade sans aucun risque.",
+      "educationId": "idees-recues"
+    },
+    {
+      "id": "reaction",
+      "question": "Que faire si vous remarquez un changement inhabituel de votre sein ?",
+      "options": [
+        { "id": "a", "label": "Attendre quelques mois pour voir s’il disparaît." },
+        { "id": "b", "label": "Prendre rendez-vous avec un professionnel de santé." },
+        { "id": "c", "label": "Chercher un traitement sur internet." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mieux vaut consulter sans attendre. Le professionnel pourra examiner vos seins et, si besoin, proposer des examens. Plus un problème est repéré tôt, mieux il se soigne.",
+      "educationId": "pourquoi-consulter"
+    },
+    {
+      "id": "prevention",
+      "question": "Qu’est-ce qui contribue à réduire le risque de cancer du sein ?",
+      "options": [
+        { "id": "a", "label": "Une activité physique régulière." },
+        { "id": "b", "label": "Éviter de toucher ses seins." },
+        { "id": "c", "label": "Dormir avec un soutien-gorge." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Une activité physique régulière, un poids adapté, l’allaitement et le fait d’éviter l’alcool et le tabac contribuent à réduire le risque.",
+      "educationId": "facteurs-risque"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { colors: { 'primary-container': '#e2165f', 'surface-tint': '#bc004b', 'on-surface-variant': '#5b3f43', 'on-secondary': '#ffffff', 'surface': '#faf9f6', 'on-primary-fixed-variant': '#900038', 'on-tertiary': '#ffffff', 'on-primary': '#ffffff', 'surface-variant': '#e3e2df', 'on-secondary-fixed-variant': '#004395', 'surface-dim': '#dbdad7', 'primary-fixed-dim': '#ffb2be', 'inverse-on-surface': '#f2f1ee', 'on-tertiary-fixed-variant': '#005236', 'surface-container-highest': '#e3e2df', 'inverse-primary': '#ffb2be', 'on-tertiary-fixed': '#002113', 'on-primary-container': '#fffbff', 'surface-bright': '#faf9f6', 'secondary-fixed': '#d8e2ff', 'primary': '#b80049', 'error': '#ba1a1a', 'surface-container-high': '#e9e8e5', 'secondary-fixed-dim': '#adc6ff', 'surface-container': '#efeeeb', 'tertiary': '#006947', 'on-error-container': '#93000a', 'outline': '#8f6f73', 'on-background': '#1a1c1a', 'tertiary-fixed': '#6ffbbe', 'on-tertiary-container': '#f5fff6', 'on-error': '#ffffff', 'on-primary-fixed': '#400014', 'secondary-container': '#2170e4', 'tertiary-fixed-dim': '#4edea3', 'background': '#faf9f6', 'surface-container-low': '#f4f3f0', 'outline-variant': '#e4bdc2', 'on-surface': '#1a1c1a', 'secondary': '#0058be', 'tertiary-container': '#00855b', 'error-container': '#ffdad6', 'on-secondary-fixed': '#001a42', 'surface-container-lowest': '#ffffff', 'on-secondary-container': '#fefcff', 'inverse-surface': '#2f312f', 'primary-fixed': '#ffd9de' }, borderRadius: { 'DEFAULT': '0.25rem', 'lg': '0.5rem', 'xl': '0.75rem', 'full': '9999px' }, spacing: { 'space-sm': '0.5rem', 'space-xl': '2.25rem', 'space-2xl': '3.5rem', 'gutter': '1rem', 'gutter-tablet': '1.5rem', 'space-lg': '1.5rem', 'margin-tablet': '2rem', 'margin': '1rem', 'margin-desktop': '3rem', 'space-xs': '0.25rem', 'space-md': '1rem' }, fontFamily: { 'display-hero-mobile': ['Plus Jakarta Sans'], 'label-lg': ['Plus Jakarta Sans'], 'headline-lg-mobile': ['Plus Jakarta Sans'], 'body-lg': ['Inter'], 'label-sm': ['Plus Jakarta Sans'], 'headline-md': ['Plus Jakarta Sans'], 'headline-sm': ['Plus Jakarta Sans'], 'display-hero': ['Plus Jakarta Sans'], 'body-md': ['Inter'], 'label-md': ['Plus Jakarta Sans'], 'headline-lg': ['Plus Jakarta Sans'], 'body-sm': ['Inter'] }, fontSize: { 'display-hero-mobile': ['2rem', { lineHeight: '2.5rem', letterSpacing: '-0.025em', fontWeight: '700' }], 'label-lg': ['0.875rem', { lineHeight: '1.25rem', letterSpacing: '0.01em', fontWeight: '600' }], 'headline-lg-mobile': ['1.5rem', { lineHeight: '2rem', letterSpacing: '-0.015em', fontWeight: '600' }], 'body-lg': ['1.125rem', { lineHeight: '1.75rem', fontWeight: '400' }], 'label-sm': ['0.6875rem', { lineHeight: '0.875rem', letterSpacing: '0.04em', fontWeight: '500' }], 'headline-md': ['1.25rem', { lineHeight: '1.75rem', letterSpacing: '-0.01em', fontWeight: '600' }], 'headline-sm': ['1.125rem', { lineHeight: '1.5rem', fontWeight: '600' }], 'display-hero': ['2.5rem', { lineHeight: '3rem', letterSpacing: '-0.03em', fontWeight: '700' }], 'body-md': ['1rem', { lineHeight: '1.5rem', fontWeight: '400' }], 'label-md': ['0.75rem', { lineHeight: '1rem', letterSpacing: '0.02em', fontWeight: '600' }], 'headline-lg': ['1.75rem', { lineHeight: '2.25rem', letterSpacing: '-0.02em', fontWeight: '600' }], 'body-sm': ['0.875rem', { lineHeight: '1.25rem', fontWeight: '400' }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_-4px_rgba(184,0,73,0.06)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm min-w-0"><img alt="ROSE Connect Brand Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9YttFOyFT7M-wpZ7pH0OIJXfbbN3jMMrObWEp6WusJLUrTqbrNKKoCbjlWxHE2eWtknM2ZlDrpz08zT6zG4pVo4golE9tFiRG3o-WTRPCO4iYk9-WpX8NgZP3-_MNBTAYc0A-vjWwUlnS4yGUaX1osHV6wyVUEsz4aahIX56-z4Ceilkzo4r4_DnmV8BxBUA9QM-5EFf9bArn3k8V34zMhbr-lzlV0zZKXK-Y0seGPYzjbp6Zg2aWEA"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate">ROSE Connect</span><span class="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[0.625rem] leading-none uppercase font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span>Care</span></div><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Home</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container-high transition-colors relative"><span class="material-symbols-outlined text-[1.4rem]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="pl-space-xs flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBADDi16iqntNFbZJTMZBMUabop0ZQs9k4f4UWxPTuWLJnoOOIp5q804lzWK6V9s1ouP-HJLSIn4ozPltiZZOJ2m_-5CUGWOHKiopGopLAQ7_mNY4aTPLq_bo-fYkIO4PTEyodzj0vfHO-VngK91E750IXp5NdS0Ak0CJbpZSLSg6u1llwWx60BnW61-erBsqnv54LYDgauUmPoT2gR1Mx4YhL-1PuvyatomPYu9qJKzGx6JYJbHwDw8g"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full px-margin pt-16 pb-28 bg-surface"><div class="flex flex-col w-full gap-space-lg">
+<!-- 1. Warm Greeting & Cycle Rhythm Card -->
+<section class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-lg shadow-sm">
+<div class="absolute -top-12 -right-12 w-36 h-36 rounded-full bg-primary-fixed/40 blur-2xl pointer-events-none"></div>
+<div class="flex flex-col gap-space-sm relative z-10">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+          Day 14 · Mid-cycle reminder
+        </span>
+<button aria-label="Dismiss or customize reminder" class="w-8 h-8 rounded-full flex items-center justify-center bg-surface-container text-on-surface-variant active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[1.1rem]">tune</span>
+</button>
+</div>
+<div class="mt-1">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight">Good morning, Maya <span class="inline-block animate-bounce text-primary text-xl">🌸</span></h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 leading-relaxed">
+          Your monthly self-exam cycle is in <span class="font-label-lg text-primary">3 days</span>. We are here with you every step.
+        </p>
+</div>
+<div class="mt-2 pt-space-sm flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-tertiary text-[1.2rem]" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
+          Next check: <span class="text-on-surface font-semibold">Saturday, Oct 21</span>
+</div>
+<button class="px-3.5 py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md shadow-sm active:scale-95 transition-all">
+          Prep Guide
+        </button>
+</div>
+</div>
+</section>
+<!-- 2. Modern Search & Discreet AI Ask Bar -->
+<section class="relative">
+<div class="relative flex items-center bg-surface-container-lowest rounded-xl shadow-md p-1.5 transition-all focus-within:shadow-lg focus-within:bg-surface-bright">
+<span class="material-symbols-outlined text-outline ml-3 mr-2 text-[1.4rem]">search</span>
+<input aria-label="Ask breast health questions or search clinical guides" class="w-full bg-transparent font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none py-2" placeholder="Ask anything about breast health, symptoms..." type="text"/>
+<button class="flex items-center gap-1 px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm shadow-sm hover:bg-surface-tint active:scale-95 transition-all flex-shrink-0">
+<span class="material-symbols-outlined text-[1rem]">auto_awesome</span>
+<span>Ask AI</span>
+</button>
+</div>
+</section>
+<!-- 3. Awareness Hero Banner -->
+<section class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary-fixed via-surface-container-lowest to-secondary-fixed p-space-lg shadow-sm">
+<div class="relative z-10 flex flex-col gap-space-sm">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-sm text-label-sm w-fit">
+<span class="material-symbols-outlined text-[1rem]" style="font-variation-settings: 'FILL' 1;">verified</span>
+        Clinical Factsheet 2025
+      </div>
+<div class="mt-1">
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight leading-snug">
+          Early Detection Saves Lives
+        </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1.5 leading-relaxed">
+          There is a <span class="font-bold text-on-surface">99% 5-year survival rate</span> when breast health anomalies are detected in early, localized stages.
+        </p>
+</div>
+<div class="mt-3 flex items-center justify-between">
+<button class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md shadow-sm active:scale-95 transition-all">
+          Read Clinical Brief
+          <span class="material-symbols-outlined text-[1.1rem]">arrow_forward</span>
+</button>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Validated by Oncologists</span>
+</div>
+</div>
+</section>
+<!-- 4. Quick Access Hub (5 Cards Grid) -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Care &amp; Learning Hub</h3>
+<span class="font-label-sm text-label-sm text-primary font-medium">Explore all</span>
+</div>
+<!-- Featured Wide Card: Self-Assessment -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-md shadow-sm active:scale-[0.99] transition-all">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[1.6rem]" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Self-Assessment</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary text-on-tertiary font-label-sm text-[0.625rem]">Interactive</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">5-min medically backed guided routine</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[1.3rem] group-hover:translate-x-1 transition-transform">chevron_right</span>
+</div>
+</div>
+<!-- 4 Compact Grid Cards -->
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Learn -->
+<div class="relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all min-h-[140px]">
+<div class="flex items-start justify-between">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[1.4rem]">auto_stories</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-[0.625rem]">Guides</span>
+</div>
+<div class="mt-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Education</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">140+ doctor reviews</span>
+</div>
+</div>
+<!-- AI Assistant -->
+<div class="relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all min-h-[140px]">
+<div class="flex items-start justify-between">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[1.4rem]" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed-dim text-on-secondary-fixed-variant font-label-sm text-[0.625rem]">24/7 Live</span>
+</div>
+<div class="mt-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">AI Assistant</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Discreet guidance</span>
+</div>
+</div>
+<!-- Quiz & Trivia -->
+<div class="relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all min-h-[140px]">
+<div class="flex items-start justify-between">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed-dim flex items-center justify-center text-on-primary-fixed-variant">
+<span class="material-symbols-outlined text-[1.4rem]">military_tech</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-[0.625rem]">Trivia</span>
+</div>
+<div class="mt-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Quiz Center</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Earn badges &amp; tokens</span>
+</div>
+</div>
+<!-- Community Forum -->
+<div class="relative flex flex-col justify-between p-space-md rounded-xl bg-surface-container-lowest shadow-sm active:scale-[0.98] transition-all min-h-[140px]">
+<div class="flex items-start justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[1.4rem]">groups</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-[0.625rem]">12.4k</span>
+</div>
+<div class="mt-4 flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">Community</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Stories &amp; solidarity</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Clinical Statistics Section (Empowering & Grounded) -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-1">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Clinical Perspective</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Knowledge eliminates fear</p>
+</div>
+<span class="material-symbols-outlined text-outline text-[1.3rem]">info</span>
+</div>
+<div class="grid grid-cols-3 gap-space-xs">
+<!-- Stat 1 -->
+<div class="flex flex-col items-center justify-center text-center p-3 rounded-xl bg-surface-container-lowest shadow-sm">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight font-bold">1 in 8</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium mt-1">Lifetime Risk</span>
+<span class="font-body-sm text-[0.7rem] leading-tight text-on-surface-variant mt-0.5">Women diagnosed</span>
+</div>
+<!-- Stat 2 -->
+<div class="flex flex-col items-center justify-center text-center p-3 rounded-xl bg-surface-container-lowest shadow-sm">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-tertiary tracking-tight font-bold">99%</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium mt-1">Survival Rate</span>
+<span class="font-body-sm text-[0.7rem] leading-tight text-on-surface-variant mt-0.5">Early detection</span>
+</div>
+<!-- Stat 3 -->
+<div class="flex flex-col items-center justify-center text-center p-3 rounded-xl bg-surface-container-lowest shadow-sm">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-secondary tracking-tight font-bold">Monthly</span>
+<span class="font-label-sm text-label-sm text-on-surface font-medium mt-1">Self-Rhythm</span>
+<span class="font-body-sm text-[0.7rem] leading-tight text-on-surface-variant mt-0.5">Routine touch</span>
+</div>
+</div>
+</section>
+<!-- 6. Prevention & Lifestyle Daily Tips (Rich Visuals) -->
+<section class="flex flex-col gap-space-sm pb-space-lg">
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Clinical Articles &amp; Tips</h3>
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+</div>
+<button class="font-label-sm text-label-sm text-primary font-semibold">View all</button>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Tip Card 1 -->
+<article class="flex gap-space-md p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow active:scale-[0.99]">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Close up medical diagnostic display of high density breast mammogram results with soft cinematic studio daylight and reassuring rose accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxtjTt39lnJ9uwdqmTkI6FaOfQn1mqKSKYYWNi5e1s3KJzUNYWdrJ2fB2SmDer0j_ZuR1-G-8XfNP1Xmbsu9D9RY4JQCjSJtgDRlukFgopeNuDRod4Xn-n4SGK6Vf6e1GYYXcSB5Ehvn-tBz_otIokphT8tPOnGGG7eoRf7VS4uNn1W1xPKPok7taAfh7gXWV2Yza19cKuoupWhXgwIyJNea8AjpE0kwSPI7f4-pA28uATfSDuszCPTQ"/>
+</div>
+<div class="flex flex-col justify-between flex-1 min-w-0">
+<div>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-[0.625rem]">Mammography</span>
+<h4 class="font-headline-sm text-[0.95rem] text-on-surface mt-1 line-clamp-2 font-semibold">
+              Breast Density: What your mammogram report actually means
+            </h4>
+</div>
+<div class="flex items-center gap-3 text-on-surface-variant font-label-sm text-label-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[0.9rem]">schedule</span> 4 min</span>
+<span>•</span>
+<span class="text-tertiary font-medium">Dr. Elena Thorne</span>
+</div>
+</div>
+</article>
+<!-- Tip Card 2 -->
+<article class="flex gap-space-md p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow active:scale-[0.99]">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Healthy lifestyle nutrition bowl with antioxidants, fresh leafy greens, berries and seeds placed on warm natural marble surface in sunlit kitchen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDX2sEvCxzQcmPHJjW7qFofZ543FEDySNFZB0YGdNwxabBP4QAZB6SkLwtUGdUF10wJC9YZ5k1QSdDgsV1NubeYMcZ6787QZgArkOTZRRnR3_DrDmQSEqCNFWPsq-gD7pB8OlhOvlbhe5-COrrg48EUK1FW5C8IxYfRKtq352IYJ7PeZ4T0WmYCwj4qumDyNYEsbrMS2UQviyVf7mc2R5yOhVumpbozFHE1K0JA96nNnUY8w2BOg9Y9aw"/>
+</div>
+<div class="flex flex-col justify-between flex-1 min-w-0">
+<div>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[0.625rem]">Hormone Health</span>
+<h4 class="font-headline-sm text-[0.95rem] text-on-surface mt-1 line-clamp-2 font-semibold">
+              Nutrition &amp; Hormonal balance: Doctor-recommended steps
+            </h4>
+</div>
+<div class="flex items-center gap-3 text-on-surface-variant font-label-sm text-label-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[0.9rem]">schedule</span> 6 min</span>
+<span>•</span>
+<span class="text-tertiary font-medium">Oncology Dietetics</span>
+</div>
+</div>
+</article>
+<!-- Tip Card 3 -->
+<article class="flex gap-space-md p-space-md rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-shadow active:scale-[0.99]">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Tactile anatomy educational diagram illustrating four quadrants of breast examination in minimalist rose and calm slate blue tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADNhmJ81Kg8hBpHzMNbBZA87mzqB9KPwuqMWTqDjCsDiYDeNVg37V1gZTqlfWERXWxbiwSo48d4rto_glHwJg62ulCAGsmDG7yM2CfNb_m6JJWLFXO0O1nDeYYTbLfu1-iNQznDxfrnaV6Mu8l8na4SD1ra2V23tlkZJKY-QaN9bd_5VoI0AylNeSauCnVzw-5QW3RzITjIA6o4PXkDN2ft0q6Vfzm1QMeQN4ex7LxeNSlJgju4LbWKw"/>
+</div>
+<div class="flex flex-col justify-between flex-1 min-w-0">
+<div>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-[0.625rem]">Practical Exam</span>
+<h4 class="font-headline-sm text-[0.95rem] text-on-surface mt-1 line-clamp-2 font-semibold">
+              How to properly map 4 breast quadrants during shower
+            </h4>
+</div>
+<div class="flex items-center gap-3 text-on-surface-variant font-label-sm text-label-sm mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[0.9rem]">schedule</span> 3 min</span>
+<span>•</span>
+<span class="text-tertiary font-medium">Clinical Routine</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+</div>
+<script>
+  (function initHomeScreenInteractions() {
+    const searchInput = document.querySelector('input[type="text"]');
+    if (searchInput) {
+      searchInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' && this.value.trim().length > 0) {
+          const aiTab = document.querySelector('nav [data-path="ai-care"]');
+          if (aiTab) aiTab.click();
+        }
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe px-margin pointer-events-none" data-active-classes="text-primary font-bold [&amp;&gt;div]:bg-primary-fixed/60 [&amp;&gt;div]:text-primary [&amp;&gt;div]:shadow-[0_2px_8px_rgba(184,0,73,0.15)]"><div class="pointer-events-auto max-w-[390px] mx-auto mb-2 bg-surface-container-lowest/90 backdrop-blur-2xl rounded-full px-space-xs py-1.5 shadow-[0_10px_30px_-6px_rgba(184,0,73,0.12),0_4px_12px_-2px_rgba(26,28,26,0.06)] flex items-center justify-between"><a aria-current="page" class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 transition-all rounded-full group text-primary font-bold [&amp;&gt;div]:bg-primary-fixed/60 [&amp;&gt;div]:text-primary [&amp;&gt;div]:shadow-[0_2px_8px_rgba(184,0,73,0.15)]" data-path="home" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all"><span class="material-symbols-outlined text-[1.35rem]">cottage</span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5">Home</span></a><a class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 text-on-surface-variant transition-all rounded-full group" data-path="education" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all"><span class="material-symbols-outlined text-[1.35rem]">auto_stories</span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5">Education</span></a><a class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 text-on-surface-variant transition-all rounded-full group relative" data-path="ai-care" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all relative"><span class="material-symbols-outlined text-[1.4rem] text-primary">auto_awesome</span><span class="absolute -top-1 -right-0.5 flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span></span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5 text-primary font-semibold">AI Care</span></a><a class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 text-on-surface-variant transition-all rounded-full group" data-path="assessment" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all"><span class="material-symbols-outlined text-[1.35rem]">verified_user</span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5">Check</span></a><a class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 text-on-surface-variant transition-all rounded-full group" data-path="community" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all"><span class="material-symbols-outlined text-[1.35rem]">forum</span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5">Community</span></a></div></nav></body></html>

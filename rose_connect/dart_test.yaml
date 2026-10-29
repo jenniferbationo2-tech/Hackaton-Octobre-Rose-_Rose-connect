@@ -1,0 +1,5 @@
+tags:
+  screenshots:
+    # Captures de contrôle visuel, à générer à la demande :
+    # flutter test --tags screenshots --run-skipped --update-goldens
+    skip: "Captures d'écran générées à la demande"

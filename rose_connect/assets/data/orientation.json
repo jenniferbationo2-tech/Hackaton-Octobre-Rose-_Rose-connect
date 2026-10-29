@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "reviewed": false,
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Avez-vous remarqué récemment une nouvelle boule dans un sein ou sous l’aisselle ?",
+      "help": "Une boule ou un épaississement, douloureux ou non.",
+      "kind": "sign"
+    },
+    {
+      "id": "q2",
+      "text": "Avez-vous observé une modification inhabituelle de la peau du sein ?",
+      "help": "Par exemple une peau qui se creuse, rougit ou prend un aspect de peau d’orange.",
+      "kind": "sign"
+    },
+    {
+      "id": "q3",
+      "text": "Avez-vous constaté un changement récent du mamelon ou un écoulement inhabituel ?",
+      "help": "Par exemple un mamelon qui rentre vers l’intérieur, ou un écoulement clair ou sanglant.",
+      "kind": "sign"
+    },
+    {
+      "id": "q4",
+      "text": "Avez-vous remarqué un changement de taille ou de forme d’un sein ?",
+      "help": "Un changement nouveau, différent de ce qui est habituel pour vous.",
+      "kind": "sign"
+    },
+    {
+      "id": "q5",
+      "text": "Avez-vous en ce moment de la fièvre avec un sein rouge, chaud, gonflé et très douloureux ?",
+      "help": "Ces symptômes demandent un avis médical rapide.",
+      "kind": "urgent"
+    }
+  ],
+  "results": {
+    "urgent": {
+      "title": "Consultez rapidement",
+      "message": "Vous avez indiqué des symptômes qui nécessitent un avis médical rapide. Rendez-vous dès aujourd’hui dans un centre de santé ou un service d’urgence."
+    },
+    "change": {
+      "title": "Un avis médical est recommandé",
+      "message": "Vous avez indiqué avoir remarqué un changement inhabituel. Plusieurs causes sont possibles. Nous vous encourageons à prendre rendez-vous avec un professionnel de santé pour obtenir une évaluation."
+    },
+    "unsure": {
+      "title": "Faites le point avec un professionnel",
+      "message": "Si vous avez un doute concernant un changement de votre sein, un professionnel de santé peut vous aider à faire le point."
+    },
+    "none": {
+      "title": "Aucun changement signalé",
+      "message": "Vous n’avez signalé aucun des changements proposés. Ce questionnaire ne permet toutefois pas d’exclure une maladie. Continuez à vous informer et consultez un professionnel de santé si vous avez une préoccupation."
+    }
+  }
+}

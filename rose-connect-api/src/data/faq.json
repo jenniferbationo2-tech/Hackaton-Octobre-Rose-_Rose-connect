@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "reviewed": false,
+  "suggestions": ["signes", "boule", "examen", "consulter", "soutenir"],
+  "urgent": {
+    "keywords": [
+      "difficulte a respirer",
+      "du mal a respirer",
+      "respire mal",
+      "j etouffe",
+      "saigne beaucoup",
+      "saignement abondant",
+      "beaucoup de sang",
+      "douleur insupportable",
+      "douleur tres forte",
+      "douleur intense",
+      "je me suis evanouie",
+      "perte de connaissance",
+      "fievre et sein rouge",
+      "sein rouge et chaud"
+    ],
+    "combinations": [
+      ["fievre", "rouge"],
+      ["fievre", "chaud"],
+      ["fievre", "gonfle"],
+      ["saigne", "abondamment"]
+    ],
+    "answer": "Ce que vous décrivez nécessite un avis médical rapide. Rendez-vous dès aujourd’hui dans un centre de santé ou un service d’urgence. Si vous avez du mal à respirer, perdez beaucoup de sang ou perdez connaissance, faites appel aux secours sans attendre."
+  },
+  "items": [
+    {
+      "id": "signes",
+      "question": "Quels sont les signes du cancer du sein ?",
+      "keywords": ["signe", "signes", "symptome", "symptomes", "reconnaitre", "indices", "manifestation"],
+      "answer": "Certains changements du sein méritent d’être montrés à un professionnel de santé :\n• une boule ou un épaississement dans le sein ou sous l’aisselle ;\n• un changement de taille, de forme ou d’aspect du sein ;\n• une peau qui se creuse, rougit ou prend un aspect de peau d’orange ;\n• un changement du mamelon, par exemple un mamelon qui rentre vers l’intérieur ;\n• un écoulement anormal ou sanglant du mamelon.\n\nCes signes sont souvent indolores. Ils peuvent avoir plusieurs causes et ne signifient pas nécessairement un cancer, mais ils doivent être examinés.",
+      "educationId": "signes-sein",
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "boule",
+      "question": "Une boule dans le sein signifie-t-elle toujours un cancer ?",
+      "keywords": ["boule", "boules", "grosseur", "masse", "nodule", "kyste", "toujours", "forcement", "bosse"],
+      "answer": "Non. La plupart des boules du sein ne sont pas des cancers : il peut s’agir par exemple d’un kyste ou d’un fibroadénome.\n\nMais seule une consultation permet de le savoir. Une boule nouvelle ou inhabituelle doit être montrée à un professionnel de santé, même si elle ne fait pas mal.",
+      "educationId": "idees-recues",
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "examen",
+      "question": "Comment se déroule un examen des seins ?",
+      "keywords": ["examen", "examens", "deroule", "deroulement", "palpation", "mammographie", "echographie", "biopsie", "rendez"],
+      "answer": "Lors de la consultation, le professionnel de santé vous pose des questions sur ce que vous avez remarqué et sur vos antécédents. Il observe puis palpe les deux seins et les aisselles.\n\nSelon ce qu’il constate, il peut demander des examens d’imagerie, comme une mammographie (radiographie des seins) ou une échographie. Si besoin, un petit prélèvement (biopsie) peut être analysé pour préciser la nature d’une anomalie.\n\nVous pouvez venir accompagnée et noter vos questions à l’avance.",
+      "educationId": "pourquoi-consulter",
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "consulter",
+      "question": "Quand faut-il consulter ?",
+      "keywords": ["quand", "consulter", "consultation", "medecin", "docteur", "sage", "inquiete", "inquietude", "aller"],
+      "answer": "Consultez un professionnel de santé :\n• dès que vous remarquez un changement inhabituel du sein ou sous l’aisselle, même sans douleur ;\n• si un changement persiste ou s’aggrave ;\n• si vous avez des antécédents familiaux et souhaitez faire le point sur votre suivi ;\n• si vous avez une inquiétude, même sans être sûre de ce que vous avez remarqué.\n\nConsulter ne veut pas dire être malade : c’est le meilleur moyen d’être rassurée ou prise en charge rapidement.",
+      "educationId": "pourquoi-consulter",
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "soutenir",
+      "question": "Comment soutenir une personne atteinte d’un cancer du sein ?",
+      "keywords": ["soutenir", "soutien", "aider", "accompagner", "proche", "amie", "mere", "soeur", "malade", "atteinte"],
+      "answer": "Quelques repères pour soutenir une proche :\n• écoutez-la sans juger et laissez-la parler à son rythme ;\n• proposez une aide concrète : l’accompagner à un rendez-vous, préparer un repas, garder les enfants ;\n• respectez ses choix et les décisions prises avec son équipe médicale ;\n• évitez les conseils de traitements non validés ;\n• prenez aussi soin de vous : accompagner quelqu’un peut être éprouvant.",
+      "educationId": "pourquoi-consulter",
+      "sources": []
+    },
+    {
+      "id": "facteurs",
+      "question": "Quels sont les facteurs de risque ?",
+      "keywords": ["risque", "risques", "facteur", "facteurs", "cause", "causes", "hereditaire", "famille", "genetique", "brca"],
+      "answer": "Le risque augmente notamment avec l’âge, en cas d’antécédents familiaux, de certaines mutations génétiques (BRCA1, BRCA2), d’exposition passée de la poitrine à des rayonnements, de surpoids, de consommation d’alcool ou de tabac.\n\nAvoir un facteur de risque ne veut pas dire qu’on aura un cancer. Et environ la moitié des cancers du sein surviennent chez des femmes sans facteur de risque particulier, en dehors du fait d’être une femme et de leur âge.",
+      "educationId": "facteurs-risque",
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "prevention",
+      "question": "Comment réduire le risque de cancer du sein ?",
+      "keywords": ["prevenir", "prevention", "reduire", "eviter", "proteger", "diminuer"],
+      "answer": "Plusieurs habitudes contribuent à réduire le risque : pratiquer une activité physique régulière, garder un poids adapté, éviter l’alcool et le tabac, et allaiter lorsque c’est possible.\n\nCes mesures ne suppriment pas tout risque. Bien connaître ses seins et consulter en cas de changement restent essentiels.",
+      "educationId": "facteurs-risque",
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "douleur",
+      "question": "Une douleur au sein est-elle un signe de cancer ?",
+      "keywords": ["douleur", "douleurs", "mal", "douloureux", "douloureuse", "tension"],
+      "answer": "Les douleurs des seins sont fréquentes et souvent liées au cycle hormonal. Elles sont rarement le seul signe d’un cancer, et à l’inverse, les signes d’un cancer du sein sont souvent indolores.\n\nUne douleur qui persiste, qui ne suit pas le rythme des règles ou qui s’accompagne d’un autre changement doit être montrée à un professionnel de santé.",
+      "educationId": "signes-sein",
+      "sources": []
+    },
+    {
+      "id": "hommes",
+      "question": "Les hommes peuvent-ils avoir un cancer du sein ?",
+      "keywords": ["homme", "hommes", "masculin", "mari", "garcon"],
+      "answer": "Oui, mais c’est rare. Un homme qui remarque une boule ou un changement au niveau de la poitrine doit lui aussi consulter un professionnel de santé.",
+      "educationId": "cancer-du-sein",
+      "sources": [
+        { "label": "Organisation mondiale de la Santé, aide-mémoire « Cancer du sein »", "url": "https://www.who.int/fr/news-room/fact-sheets/detail/breast-cancer" }
+      ]
+    },
+    {
+      "id": "contagieux",
+      "question": "Le cancer du sein est-il contagieux ?",
+      "keywords": ["contagieux", "contagion", "transmet", "transmettre", "attraper"],
+      "answer": "Non. Le cancer du sein ne se transmet pas d’une personne à une autre. Vous pouvez soutenir, toucher et prendre soin d’une personne malade sans aucun risque.",
+      "educationId": "idees-recues",
+      "sources": []
+    },
+    {
+      "id": "connaitre-seins",
+      "question": "Comment bien connaître ses seins ?",
+      "keywords": ["autopalpation", "palper", "auto", "observer", "miroir", "toucher", "connaitre", "verifier"],
+      "answer": "Observer et palper régulièrement vos seins vous aide à savoir ce qui est habituel pour vous et à repérer plus facilement un changement :\n• regardez vos seins dans un miroir, bras le long du corps puis levés ;\n• palpez doucement chaque sein et l’aisselle avec le plat des doigts ;\n• choisissez un moment régulier, par exemple quelques jours après les règles.\n\nUn professionnel de santé peut vous montrer comment faire. Si vous remarquez un changement, consultez.",
+      "educationId": "signes-sein",
+      "sources": []
+    }
+  ]
+}

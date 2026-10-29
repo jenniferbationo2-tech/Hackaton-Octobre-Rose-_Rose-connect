@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { colors: { 'primary-container': '#e2165f', 'surface-tint': '#bc004b', 'on-surface-variant': '#5b3f43', 'on-secondary': '#ffffff', 'surface': '#faf9f6', 'on-primary-fixed-variant': '#900038', 'on-tertiary': '#ffffff', 'on-primary': '#ffffff', 'surface-variant': '#e3e2df', 'on-secondary-fixed-variant': '#004395', 'surface-dim': '#dbdad7', 'primary-fixed-dim': '#ffb2be', 'inverse-on-surface': '#f2f1ee', 'on-tertiary-fixed-variant': '#005236', 'surface-container-highest': '#e3e2df', 'inverse-primary': '#ffb2be', 'on-tertiary-fixed': '#002113', 'on-primary-container': '#fffbff', 'surface-bright': '#faf9f6', 'secondary-fixed': '#d8e2ff', 'primary': '#b80049', 'error': '#ba1a1a', 'surface-container-high': '#e9e8e5', 'secondary-fixed-dim': '#adc6ff', 'surface-container': '#efeeeb', 'tertiary': '#006947', 'on-error-container': '#93000a', 'outline': '#8f6f73', 'on-background': '#1a1c1a', 'tertiary-fixed': '#6ffbbe', 'on-tertiary-container': '#f5fff6', 'on-error': '#ffffff', 'on-primary-fixed': '#400014', 'secondary-container': '#2170e4', 'tertiary-fixed-dim': '#4edea3', 'background': '#faf9f6', 'surface-container-low': '#f4f3f0', 'outline-variant': '#e4bdc2', 'on-surface': '#1a1c1a', 'secondary': '#0058be', 'tertiary-container': '#00855b', 'error-container': '#ffdad6', 'on-secondary-fixed': '#001a42', 'surface-container-lowest': '#ffffff', 'on-secondary-container': '#fefcff', 'inverse-surface': '#2f312f', 'primary-fixed': '#ffd9de' }, borderRadius: { 'DEFAULT': '0.25rem', 'lg': '0.5rem', 'xl': '0.75rem', 'full': '9999px' }, spacing: { 'space-sm': '0.5rem', 'space-xl': '2.25rem', 'space-2xl': '3.5rem', 'gutter': '1rem', 'gutter-tablet': '1.5rem', 'space-lg': '1.5rem', 'margin-tablet': '2rem', 'margin': '1rem', 'margin-desktop': '3rem', 'space-xs': '0.25rem', 'space-md': '1rem' }, fontFamily: { 'display-hero-mobile': ['Plus Jakarta Sans'], 'label-lg': ['Plus Jakarta Sans'], 'headline-lg-mobile': ['Plus Jakarta Sans'], 'body-lg': ['Inter'], 'label-sm': ['Plus Jakarta Sans'], 'headline-md': ['Plus Jakarta Sans'], 'headline-sm': ['Plus Jakarta Sans'], 'display-hero': ['Plus Jakarta Sans'], 'body-md': ['Inter'], 'label-md': ['Plus Jakarta Sans'], 'headline-lg': ['Plus Jakarta Sans'], 'body-sm': ['Inter'] }, fontSize: { 'display-hero-mobile': ['2rem', { lineHeight: '2.5rem', letterSpacing: '-0.025em', fontWeight: '700' }], 'label-lg': ['0.875rem', { lineHeight: '1.25rem', letterSpacing: '0.01em', fontWeight: '600' }], 'headline-lg-mobile': ['1.5rem', { lineHeight: '2rem', letterSpacing: '-0.015em', fontWeight: '600' }], 'body-lg': ['1.125rem', { lineHeight: '1.75rem', fontWeight: '400' }], 'label-sm': ['0.6875rem', { lineHeight: '0.875rem', letterSpacing: '0.04em', fontWeight: '500' }], 'headline-md': ['1.25rem', { lineHeight: '1.75rem', letterSpacing: '-0.01em', fontWeight: '600' }], 'headline-sm': ['1.125rem', { lineHeight: '1.5rem', fontWeight: '600' }], 'display-hero': ['2.5rem', { lineHeight: '3rem', letterSpacing: '-0.03em', fontWeight: '700' }], 'body-md': ['1rem', { lineHeight: '1.5rem', fontWeight: '400' }], 'label-md': ['0.75rem', { lineHeight: '1rem', letterSpacing: '0.02em', fontWeight: '600' }], 'headline-lg': ['1.75rem', { lineHeight: '2.25rem', letterSpacing: '-0.02em', fontWeight: '600' }], 'body-sm': ['0.875rem', { lineHeight: '1.25rem', fontWeight: '400' }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_20px_-4px_rgba(184,0,73,0.06)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm min-w-0"><img alt="ROSE Connect Brand Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9YttFOyFT7M-wpZ7pH0OIJXfbbN3jMMrObWEp6WusJLUrTqbrNKKoCbjlWxHE2eWtknM2ZlDrpz08zT6zG4pVo4golE9tFiRG3o-WTRPCO4iYk9-WpX8NgZP3-_MNBTAYc0A-vjWwUlnS4yGUaX1osHV6wyVUEsz4aahIX56-z4Ceilkzo4r4_DnmV8BxBUA9QM-5EFf9bArn3k8V34zMhbr-lzlV0zZKXK-Y0seGPYzjbp6Zg2aWEA"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate">ROSE Connect</span><span class="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[0.625rem] leading-none uppercase font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span>Care</span></div><span class="font-label-sm text-label-sm text-on-surface-variant truncate">Ai Care</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Notifications" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container-high transition-colors relative"><span class="material-symbols-outlined text-[1.4rem]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="pl-space-xs flex items-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBADDi16iqntNFbZJTMZBMUabop0ZQs9k4f4UWxPTuWLJnoOOIp5q804lzWK6V9s1ouP-HJLSIn4ozPltiZZOJ2m_-5CUGWOHKiopGopLAQ7_mNY4aTPLq_bo-fYkIO4PTEyodzj0vfHO-VngK91E750IXp5NdS0Ak0CJbpZSLSg6u1llwWx60BnW61-erBsqnv54LYDgauUmPoT2gR1Mx4YhL-1PuvyatomPYu9qJKzGx6JYJbHwDw8g"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full px-margin pt-16 pb-28 bg-surface"><div class="flex flex-col w-full pb-6">
+<!-- Top Medically Supervised Context Banner -->
+<div class="sticky top-0 z-30 -mx-margin px-margin pt-1 pb-3 bg-surface/90 backdrop-blur-md">
+<!-- Status Indicator -->
+<div class="flex items-center justify-between py-1.5 px-3 rounded-full bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-tertiary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold truncate tracking-tight">Online &amp; Medically Supervised</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[0.875rem] text-tertiary">verified</span>
+<span class="font-label-sm text-label-sm text-tertiary font-medium">v3.4 Care AI</span>
+</div>
+</div>
+<!-- Prominent Medical Disclaimer Banner -->
+<div class="mt-2 p-3 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-2.5">
+<div class="w-6 h-6 rounded-full bg-secondary-fixed flex items-center justify-center flex-shrink-0 mt-0.5 text-on-secondary-fixed-variant">
+<span class="material-symbols-outlined text-[1rem]">info</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+<span class="font-semibold text-on-surface">Clinical Notice:</span> ROSE AI provides clinical awareness &amp; evidence-based education, not a medical diagnosis. For acute pain or emergencies, consult your physician immediately.
+      </p>
+</div>
+</div>
+<!-- Chat Stream Container -->
+<div class="flex flex-col gap-space-md mt-2" id="chatStream">
+<!-- 1. AI Greeting Message -->
+<div class="flex items-start gap-space-sm max-w-[92%] self-start">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary flex-shrink-0 shadow-sm mt-1">
+<span class="material-symbols-outlined text-[1.125rem]" style="font-variation-settings: 'FILL' 1;">spa</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="p-3.5 rounded-2xl rounded-tl-sm bg-surface-container-lowest text-on-surface shadow-sm">
+<p class="font-body-md text-body-md leading-relaxed">
+            Hello Maya. I am your ROSE health companion. You can ask me anything about changes you noticed, screening guidelines, or preparing questions for your doctor. How are you feeling today?
+          </p>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant pl-1">10:14 AM</span>
+</div>
+</div>
+<!-- 2. User Reply Bubble -->
+<div class="flex items-start gap-space-sm max-w-[88%] self-end flex-row-reverse">
+<div class="w-8 h-8 rounded-full overflow-hidden flex-shrink-0 shadow-sm mt-1 ring-2 ring-primary-fixed">
+<img class="w-full h-full object-cover" data-alt="Close-up serene photographic portrait of Maya, a warm light-skinned woman smiling gently wearing a cozy dusty pink knit sweater, shot in soft natural daylight with subtle bokeh." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBwMRwonvAPmzVVPE6aG7BGZp7UxJAn4-n5GZgq8JByPENY-zBXCF_vFO7qkHNHzpw1FMQ-ioqgIeUTuV3VI0FI6aNVvRnSmPzk02yn9uDwFHlnocqgTyYuTzI5caoZ3Z5ikTZm1z6uwnxFQYXhqGIHqONtOFItvbeuoiXkP6WYDbacQ3wyTr3cJ_3dJ9hOUn5QvAC5n3HB5NCl4I5NNNmv4HZxlfL68_NKcGpTmqrKpn51P4V1wf_3w"/>
+</div>
+<div class="flex flex-col items-end gap-1">
+<div class="p-3.5 rounded-2xl rounded-tr-sm bg-gradient-to-br from-primary-container to-primary text-on-primary shadow-md">
+<p class="font-body-md text-body-md leading-relaxed">
+            I noticed a slight tenderness near my upper armpit after exercising. Is this something I should be concerned about?
+          </p>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant pr-1">10:15 AM</span>
+</div>
+</div>
+<!-- 3. AI Detailed Clinical Response Card -->
+<div class="flex items-start gap-space-sm max-w-[96%] self-start">
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary flex-shrink-0 shadow-sm mt-1">
+<span class="material-symbols-outlined text-[1.125rem]" style="font-variation-settings: 'FILL' 1;">spa</span>
+</div>
+<div class="flex flex-col gap-2 w-full">
+<div class="p-4 rounded-2xl rounded-tl-sm bg-surface-container-lowest text-on-surface shadow-md flex flex-col gap-3">
+<div class="flex items-center gap-2 pb-2">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[0.875rem]">vital_signs</span>
+              Anatomical Context
+            </span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Axillary Region</span>
+</div>
+<p class="font-body-md text-body-md leading-relaxed">
+            Tenderness in that area is very commonly related to the <strong class="text-on-surface font-semibold">axillary tail of Spence</strong> (breast tissue extension) or mild pectoral muscle strain from exercise, especially around your menstrual cycle.
+          </p>
+<!-- Clinical Checklist Visual Card -->
+<div class="p-3.5 rounded-xl bg-surface-container-low flex flex-col gap-2">
+<span class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[1rem]">checklist</span>
+              Key Observations We Track:
+            </span>
+<div class="flex flex-col gap-1.5 pt-0.5">
+<div class="flex items-start gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant"><strong class="text-on-surface">Cyclic vs. non-cyclic ache:</strong> Fluctuates with your monthly hormone shifts.</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant"><strong class="text-on-surface">Physical signs:</strong> Any distinct palpable lump, swelling, or skin dimpling.</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant"><strong class="text-on-surface">Timeline duration:</strong> Persisting past 2 complete menstrual cycles without change.</span>
+</div>
+</div>
+</div>
+<!-- Medical Illustration Graphic Context Card -->
+<div class="rounded-xl overflow-hidden bg-surface-container relative">
+<div class="h-28 w-full relative">
+<img class="w-full h-full object-cover" data-alt="High-end botanical and anatomical soft digital illustration showing gentle lymph node contours and breast tissue layers in pastel rose, cream, and calming soft blue hues, stylized editorial healthcare art." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUJJjJ2RHGssnHy5_WIcOwS9KXtn9CFDxxN0Vwj_1cQcZqMv7GXgjoFD1rduGcjtOpdYhsZWxam8YlZ49b2hxH3VqaZ2qO2ogPW0GT0Ia5IZAHVrR55wgA-_AEk--PG6AihaqIPwdX3cisrZcrQ1wToJeT4j4FK1bEFMRh_3a1pfDEInJUghBhkYnjU6OybbzWlbVSk4yO1QNYKS_nlXk31ZKZ-urvvTb4gFd1a62XwYhJXyv7F-WG9A"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/30 to-transparent"></div>
+<div class="absolute bottom-2 left-3 flex items-center gap-1 text-on-surface font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[0.875rem] text-primary">zoom_in</span>
+                Lymphatic &amp; Muscular Mapping
+              </div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-1">
+            Would you like to log this in your symptom tracker, or walk through a quick 3-step check together?
+          </p>
+<!-- Action buttons inside bubble -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<button class="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-sm active:scale-95 transition-all" type="button">
+<span class="material-symbols-outlined text-[1rem]">calendar_add_on</span>
+              Log in Tracker
+            </button>
+<button class="flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-secondary-fixed text-on-secondary-fixed-variant font-label-md text-label-md active:scale-95 transition-all" type="button">
+<span class="material-symbols-outlined text-[1rem]">touch_app</span>
+              Start Guided Check
+            </button>
+</div>
+</div>
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">10:16 AM</span>
+<div class="flex items-center gap-2">
+<button aria-label="Helpful" class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[1rem]">thumb_up</span>
+</button>
+<button aria-label="Save response" class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[1rem]">bookmark</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 4. Interactive Suggested Question Chips (Horizontally Scrollable) -->
+<div class="mt-4 -mx-margin px-margin">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[0.875rem] text-primary">lightbulb</span>
+        Recommended Follow-ups
+      </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Swipe for more</span>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+<button class="flex-shrink-0 flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md shadow-sm active:scale-95 transition-all" onclick="appendPrompt('Start 3-step tenderness check')" type="button">
+<span class="material-symbols-outlined text-[1rem] text-primary">auto_awesome</span>
+<span>✨ Start 3-step tenderness check</span>
+</button>
+<button class="flex-shrink-0 flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm active:scale-95 transition-all" onclick="appendPrompt('Questions for my doctor')" type="button">
+<span class="material-symbols-outlined text-[1rem] text-secondary">assignment</span>
+<span>📋 Questions for my doctor</span>
+</button>
+<button class="flex-shrink-0 flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm active:scale-95 transition-all" onclick="appendPrompt('How does my cycle affect breast tissue?')" type="button">
+<span class="material-symbols-outlined text-[1rem] text-primary">local_florist</span>
+<span>🌸 How does my cycle affect breast tissue?</span>
+</button>
+<button class="flex-shrink-0 flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm active:scale-95 transition-all" onclick="appendPrompt('What is normal fibrocystic tissue?')" type="button">
+<span class="material-symbols-outlined text-[1rem] text-tertiary">science</span>
+<span>🔬 What is normal fibrocystic tissue?</span>
+</button>
+</div>
+</div>
+<!-- Doctor Consultation Prep Floating Cardlet -->
+<div class="mt-3 p-3.5 rounded-2xl bg-secondary-fixed/50 flex items-center justify-between gap-3 shadow-sm">
+<div class="flex items-center gap-2.5 min-w-0">
+<div class="w-9 h-9 rounded-xl bg-surface-container-lowest flex items-center justify-center text-secondary flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[1.25rem]">edit_note</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Dr. Sarah Vance • Next check in 12 days</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Auto-save questions directly to clinical prep note</span>
+</div>
+</div>
+<button class="flex-shrink-0 px-2.5 py-1.5 rounded-lg bg-surface-container-lowest text-secondary font-label-sm text-label-sm font-semibold active:scale-95 shadow-sm" type="button">
+      Open Prep
+    </button>
+</div>
+<!-- Bottom Floating Chat Input Bar -->
+<div class="sticky bottom-0 z-40 -mx-margin px-margin pt-2 bg-gradient-to-t from-surface via-surface/95 to-transparent pb-1">
+<div class="p-2 rounded-2xl bg-surface-container-lowest shadow-xl flex items-center gap-2">
+<!-- Media / Plus Attachment Button -->
+<button aria-label="Attach clinical report or photo" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container active:scale-95 transition-all flex-shrink-0" type="button">
+<span class="material-symbols-outlined text-[1.35rem]">add_circle</span>
+</button>
+<!-- Input Field -->
+<div class="flex-1 min-w-0 relative">
+<input class="w-full bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm px-3.5 py-2.5 rounded-xl focus:outline-none focus:bg-surface-container-lowest transition-all" id="chatInput" placeholder="Type your question or symptom..." type="text"/>
+</div>
+<!-- Microphone with Pulse Indicator -->
+<button aria-label="Voice dictation" class="relative w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container active:scale-95 transition-all flex-shrink-0" id="micBtn" type="button">
+<span class="material-symbols-outlined text-[1.25rem]">mic</span>
+<span class="absolute inset-0 rounded-full bg-primary/10 animate-ping pointer-events-none"></span>
+</button>
+<!-- Send Button -->
+<button aria-label="Send message" class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform flex-shrink-0" id="sendBtn" onclick="submitMessage()" type="button">
+<span class="material-symbols-outlined text-[1.25rem]">arrow_upward</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  function appendPrompt(text) {
+    const input = document.getElementById('chatInput');
+    if (input) {
+      input.value = text;
+      input.focus();
+    }
+  }
+
+  function submitMessage() {
+    const input = document.getElementById('chatInput');
+    const stream = document.getElementById('chatStream');
+    if (!input || !input.value.trim() || !stream) return;
+
+    const userText = input.value.trim();
+    input.value = '';
+
+    // Create user bubble
+    const now = new Date();
+    const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+    const userMsg = document.createElement('div');
+    userMsg.className = "flex items-start gap-space-sm max-w-[88%] self-end flex-row-reverse animate-fade-in";
+    userMsg.innerHTML = `
+      <div class="w-8 h-8 rounded-full overflow-hidden flex-shrink-0 shadow-sm mt-1 ring-2 ring-primary-fixed">
+        <img src="placeholder" data-alt="Close-up serene photographic portrait of Maya, smiling gently, wearing dusty pink knitwear." class="w-full h-full object-cover">
+      </div>
+      <div class="flex flex-col items-end gap-1">
+        <div class="p-3.5 rounded-2xl rounded-tr-sm bg-gradient-to-br from-primary-container to-primary text-on-primary shadow-md">
+          <p class="font-body-md text-body-md leading-relaxed">${escapeHtml(userText)}</p>
+        </div>
+        <span class="font-label-sm text-label-sm text-on-surface-variant pr-1">${timeStr}</span>
+      </div>
+    `;
+    stream.appendChild(userMsg);
+
+    // AI typing indicator simulation
+    setTimeout(() => {
+      const aiReply = document.createElement('div');
+      aiReply.className = "flex items-start gap-space-sm max-w-[92%] self-start";
+      aiReply.innerHTML = `
+        <div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-primary flex-shrink-0 shadow-sm mt-1">
+          <span class="material-symbols-outlined text-[1.125rem]" style="font-variation-settings: 'FILL' 1;">spa</span>
+        </div>
+        <div class="flex flex-col gap-1">
+          <div class="p-3.5 rounded-2xl rounded-tl-sm bg-surface-container-lowest text-on-surface shadow-sm">
+            <p class="font-body-md text-body-md leading-relaxed">
+              I have logged this note for your upcoming check-in. Remember to pay close attention to any changes in firmness or sensitivity across your next cycle. Would you like me to set a reminder for 5 days from now?
+            </p>
+          </div>
+          <span class="font-label-sm text-label-sm text-on-surface-variant pl-1">${timeStr}</span>
+        </div>
+      `;
+      stream.appendChild(aiReply);
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }, 600);
+
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  }
+
+  function escapeHtml(string) {
+    const div = document.createElement('div');
+    div.innerText = string;
+    return div.innerHTML;
+  }
+
+  // Keyboard Enter support
+  document.getElementById('chatInput')?.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      submitMessage();
+    }
+  });
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe px-margin pointer-events-none" data-active-classes="text-primary font-bold [&amp;&gt;div]:bg-primary-fixed/60 [&amp;&gt;div]:text-primary [&amp;&gt;div]:shadow-[0_2px_8px_rgba(184,0,73,0.15)]"><div class="pointer-events-auto max-w-[390px] mx-auto mb-2 bg-surface-container-lowest/90 backdrop-blur-2xl rounded-full px-space-xs py-1.5 shadow-[0_10px_30px_-6px_rgba(184,0,73,0.12),0_4px_12px_-2px_rgba(26,28,26,0.06)] flex items-center justify-between"><a class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 text-on-surface-variant transition-all rounded-full group" data-path="home" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all"><span class="material-symbols-outlined text-[1.35rem]">cottage</span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5">Home</span></a><a class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 text-on-surface-variant transition-all rounded-full group" data-path="education" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all"><span class="material-symbols-outlined text-[1.35rem]">auto_stories</span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5">Education</span></a><a aria-current="page" class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 transition-all rounded-full group relative text-primary font-bold [&amp;&gt;div]:bg-primary-fixed/60 [&amp;&gt;div]:text-primary [&amp;&gt;div]:shadow-[0_2px_8px_rgba(184,0,73,0.15)]" data-path="ai-care" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all relative"><span class="material-symbols-outlined text-[1.4rem] text-primary">auto_awesome</span><span class="absolute -top-1 -right-0.5 flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span></span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5 text-primary font-semibold">AI Care</span></a><a class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 text-on-surface-variant transition-all rounded-full group" data-path="assessment" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all"><span class="material-symbols-outlined text-[1.35rem]">verified_user</span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5">Check</span></a><a class="flex-1 flex flex-col items-center justify-center min-w-0 min-h-[44px] py-1 text-on-surface-variant transition-all rounded-full group" data-path="community" href="#"><div class="w-10 h-7 rounded-full flex items-center justify-center transition-all"><span class="material-symbols-outlined text-[1.35rem]">forum</span></div><span class="font-label-sm text-[0.6875rem] tracking-tight truncate mt-0.5">Community</span></a></div></nav></body></html>
